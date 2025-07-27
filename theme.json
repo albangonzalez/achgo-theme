@@ -1,6 +1,47 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
 	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#275674",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#6393a5",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#6393a5",
+					"name": "Blue",
+					"slug": "blue"
+				},
+				{
+					"color": "#ecf3f6",
+					"name": "Light Blue",
+					"slug": "light-blue"
+				},
+				{
+					"color": "#f45c24",
+					"name": "Orange",
+					"slug": "orange"
+				}
+			],
+			"gradient": [
+				{
+					"gradient": "linear-gradient(45deg, #275674, #6393A5)",
+					"name": "ACHGO",
+					"slug": "achgo"
+				}
+			]
+		},
 		"appearanceTools": true,
 		"layout": {
 			"contentSize": "620px",
