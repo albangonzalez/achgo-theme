@@ -31,9 +31,14 @@
 					"slug": "blue"
 				},
 				{
+					"color": "#f9fcfd",
+					"name": "Light Blue 1",
+					"slug": "light-blue-1"
+				},
+				{
 					"color": "#ecf3f6",
-					"name": "Light Blue",
-					"slug": "light-blue"
+					"name": "Light Blue 2",
+					"slug": "light-blue-2"
 				},
 				{
 					"color": "#f45c24",
