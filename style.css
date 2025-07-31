@@ -14,3 +14,7 @@ Text Domain: achgo
 Tags: 
 */
 
+.wp-social-link {
+    background-color: unset;
+    border: 2px solid;
+}
