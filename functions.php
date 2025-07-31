@@ -18,4 +18,9 @@ function  achgo_enqueue_styles() {
 	);
 }
 
+function achgo_add_editor_styles() {
+	add_editor_style( get_stylesheet_uri() );
+}
+
 add_action( 'wp_enqueue_scripts', 'achgo_enqueue_styles' );
+add_action( 'after_setup_theme', 'achgo_add_editor_styles' );
