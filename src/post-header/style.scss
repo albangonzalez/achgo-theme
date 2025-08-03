@@ -1,0 +1,40 @@
+.wp-block-achgo-post-header {
+	background-image: var(--wp--preset--gradient--achgo);
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+
+	&::after {
+		content: '';
+		background: url("./assets/images/shape-bottom.svg") right bottom no-repeat;
+		width: 101vw;
+		height: 100%;
+		position: absolute;
+		bottom: -1px;
+		left: -.1vw;
+	}
+
+	.content {
+		height: 300px;
+
+		@media (min-width: 640px) {
+			& > .heading {
+				width: 50%;
+
+				h1 {
+					text-align: end;
+				}
+			}
+		}
+	}
+
+	@media (min-width: 640px) {
+		.content {
+			height: 500px;
+			justify-content: end;
+			padding: 0 4rem;
+		}
+	}
+}
