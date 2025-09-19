@@ -43,6 +43,11 @@
 					"slug": "light-blue-2"
 				},
 				{
+					"color": "#234b64",
+					"name": "Dark Blue 1",
+					"slug": "dark-blue-1"
+				},
+				{
 					"color": "#f45c24",
 					"name": "Orange",
 					"slug": "orange"
@@ -134,6 +139,11 @@
 				},
 				"typography": {
 					"textTransform": "uppercase"
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|dark-blue-1"
+					}
 				}
 			}
 		},
