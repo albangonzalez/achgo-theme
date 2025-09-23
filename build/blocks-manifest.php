@@ -21,5 +21,26 @@ return array(
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
 		'render' => 'file:./render.php'
+	),
+	'scroll-container' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'achgo/scroll-container',
+		'version' => '0.1.0',
+		'title' => 'Scroll Container',
+		'category' => 'theme',
+		'icon' => 'slides',
+		'description' => 'Make items inside container horizontally scrollable',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'scroll-container',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'viewScript' => 'file:./view.js'
 	)
 );

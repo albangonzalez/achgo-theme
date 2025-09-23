@@ -1,0 +1,38 @@
+.wp-block-achgo-scroll-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+
+	ul.scroll-list {
+		display: flex;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+		//scrollbar-width: none; /* Firefox */
+		//-ms-overflow-style: none; /* IE and Edge */
+		cursor: grab;
+		-webkit-overflow-scrolling: touch;
+		user-select: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		& > li {
+			min-width: 200px;
+			flex: 0 0 auto;
+			padding: 1rem 2rem;
+			margin-right: 1rem;
+			border-radius: .5rem;
+			font-size: 3rem;
+			color: var(--wp--preset--color--base);
+			background: var(--wp--preset--color--contrast);
+		}
+	}
+
+}
