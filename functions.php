@@ -64,5 +64,6 @@ function achgo_post_header_block_init() {
 }
 
 add_action( 'wp_enqueue_scripts', 'achgo_enqueue_styles' );
+add_action( 'enqueue_block_editor_assets', 'achgo_enqueue_styles' );
 add_action( 'after_setup_theme', 'achgo_add_editor_styles' );
 add_action( 'init', 'achgo_post_header_block_init' );
