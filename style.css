@@ -209,3 +209,68 @@ ul.our-services-timeline-reversibilite > li.timeline-item-cat-6 p {
     }
 }
 
+.our-services-card-offer {
+    background-color: var(--wp--preset--color--base);
+    border-radius: 1rem;
+}
+
+.our-services-card-offer:hover,
+.our-services-card-offer:focus,
+.our-services-card-offer:active {
+    box-shadow: 4px 4px var(--wp--preset--color--contrast);
+}
+
+.our-services-card-offer > header {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.our-services-card-offer > header h4 {
+    background-color: var(--wp--preset--color--contrast);
+    color: var(--wp--preset--color--base);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.our-services-card-offer > div {
+    padding: 0 1rem 0 1rem;
+}
+
+.our-services-card-offer > footer > .card-hint > div {
+    width: 100px;
+    padding: .5rem;
+    background-color: var(--wp--preset--color--contrast);
+    border-radius: 0 .5rem 0 .5rem;
+    color: var(--wp--preset--color--base);
+    font-weight: 600;
+}
+
+.our-services-card-offer > footer .card-hint::before {
+    border-bottom: 7px solid var(--wp--preset--color--contrast);
+    border-right: 96px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+}
+
+.our-services-card-offer > footer .card-link {
+    font-weight: 600;
+}
+
+.our-services-card-offer > footer .card-link a {
+    padding-right: .5rem;
+    text-decoration: none;
+}
+
+.our-services-card-offer > footer .card-link a::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}
+
+.our-services-card-offer > footer .card-link a::after {
+    content: " > ";
+}
