@@ -34,6 +34,10 @@ h1.wp-block-site-title {
     border: 2px solid;
 }
 
+.home-our-clients {
+    justify-content: space-around;
+}
+
 .grid-our-services > * {
     background-color: var(--wp--preset--color--light-blue-2);
     position: relative;

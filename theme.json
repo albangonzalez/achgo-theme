@@ -157,6 +157,12 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|poppins",
 			"fontWeight": "300"
+		},
+		"spacing": {
+			"padding": {
+				"right": "1rem",
+				"left": "1rem"
+			}
 		}
 	},
 	"templateParts": [
